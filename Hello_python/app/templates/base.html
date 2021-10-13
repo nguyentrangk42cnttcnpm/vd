@@ -1,0 +1,14 @@
+<html>
+          <head>
+              {% if title %}
+               <title>{{title}}-First App </title>
+               {% else %}
+                <title>welcome to homepage </title>
+               {% endif %} 
+          </head>
+          <body>
+               <h1>Hello,world</h1>
+               {% block content %}
+               {% endblock %}
+          </body>
+     </html>
